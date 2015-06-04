@@ -1,6 +1,7 @@
 # MongoBug
 This program was created after my team found what appears to be a bug in the MongoDB load balancer with the WiredTiger storage engine. This program will simply start up a number of threads and then insert documents into MongoDB.
 
+```
 The program can be run like:
 Usage: MongoBugMain -h <arg> -p <arg> -d <arg> -c <arg> -t<arg> -i <arg> -m arg
     A utility to insert many documents into MongoDB in a multi-threaded manner
@@ -14,3 +15,4 @@ Arguments:
   -i  --insertsperthread <arg>  The number of inserts per thread, default: 40000
   -m  --message <arg>           The message inserted for this run, default: default message
       --help                    Prints this message
+```
